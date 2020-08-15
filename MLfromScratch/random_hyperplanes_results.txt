@@ -1,0 +1,82 @@
+The file RandomProjectionsFileUsedToGenerateResults.py was used to generate this
+
+It is recommended that you use =W ignore with the interpreter to ignore non-convergence warnings
+
+It appears that the best CV error decreases with increasing number of hyperplanes that we project our data on,
+as does the test error. It seems that having more features allows the SVM to find a set of features to create
+an effective decision boundary
+
+Ionosphere split 0:
+Original data: LinearSVC best C = 0.001, best CV error = 19.35%, test error = 25.0%
+Random hyperplane data:
+For k = 10
+LinearSVC best C = 0.001, best CV error = 34.37%, test error = 36.11%
+For k = 100
+LinearSVC best C = 0.001, best CV error = 22.58%, test error = 27.77%
+For k = 1000
+LinearSVC best C = 0.001, best CV error = 0.0%, test error = 11.11%
+For k = 10000
+LinearSVC best C = 0.001, best CV error = 0.0%, test error = 5.55%
+
+Breast Cancer split 0:
+Original data: LinearSVC best C = 0.1, best CV error = 3.92%, test error = 5.17%
+Random hyperplane data:
+For k = 10
+LinearSVC best C = 0.001, best CV error = 36.53%, test error = 37.93%
+For k = 100
+LinearSVC best C = 0.001, best CV error = 36.53%, test error = 37.93%
+For k = 1000
+LinearSVC best C = 0.1, best CV error = 1.96%, test error = 10.34%
+For k = 10000
+LinearSVC best C = 0.1, best CV error = 0.0%, test error = 5.17%
+
+Qsar split 0:
+Original data: LinearSVC best C = 0.1, best CV error = 6.31%, test error = 11.32%
+Random hyperplane data:
+For k = 10
+LinearSVC best C = 0.001, best CV error = 33.68%, test error = 33.96%
+For k = 100
+LinearSVC best C = 0.001, best CV error = 33.68%, test error = 33.96%
+For k = 1000
+LinearSVC best C = 0.001, best CV error = 14.73%, test error = 17.92%
+For k = 10000
+LinearSVC best C = 0.001, best CV error = 7.36%, test error = 14.15%
+
+Climate split 0:
+Original data: LinearSVC best C = 10, best CV error = 0.0%, test error = 3.63%
+Random hyperplane data:
+For k = 10
+LinearSVC best C = 0.001, best CV error = 8.16%, test error = 9.09%
+For k = 100
+LinearSVC best C = 0.001, best CV error = 8.16%, test error = 9.09%
+For k = 1000
+LinearSVC best C = 0.001, best CV error = 8.16%, test error = 9.09%
+For k = 10000
+LinearSVC best C = 0.01, best CV error = 2.08%, test error = 3.63%
+
+Hill Valley split 0:
+Original data: LinearSVC best C = 0.01, best CV error = 0.0%, test error = 0.0%
+Random hyperplane data:
+For k = 10
+LinearSVC best C = 100, best CV error = 49.09%, test error = 51.61%
+For k = 100
+LinearSVC best C = 0.01, best CV error = 38.88%, test error = 50.0%
+For k = 1000
+LinearSVC best C = 100, best CV error = 44.44%, test error = 50.0%
+For k = 10000
+LinearSVC best C = 0.01, best CV error = 29.09%, test error = 32.25%
+
+Micromass split 0:
+Original data: LinearSVC best C = 0.01, best CV error = 8.33%, test error = 3.19%
+Random hyperplane data:
+For k = 10
+LinearSVC best C = 100, best CV error = 38.09%, test error = 38.29%
+For k = 100
+LinearSVC best C = 100, best CV error = 20.48%, test error = 34.04%
+For k = 1000
+LinearSVC best C = 1, best CV error = 13.25%, test error = 12.76%
+For k = 10000
+LinearSVC best C = 0.01, best CV error = 2.4%, test error = 4.25%
+
+
+
